@@ -1,5 +1,13 @@
-import { FaceBook, Instagram, Youtube, Twitter } from '../svg/SocialMediaIcons'
-import { GitHub, IBM, Nextjs, Unity } from '../svg/Brands'
+import {
+  SiIbm,
+  SiGithub,
+  SiNextDotJs,
+  SiUnity,
+  SiFacebook,
+  SiInstagram,
+  SiYoutube,
+  SiTwitter,
+} from 'react-icons/si'
 
 export default function Footer() {
   return (
@@ -41,7 +49,7 @@ export default function Footer() {
                   className="flex items-center gap-2"
                   aria-label="Facebook"
                 >
-                  <FaceBook />
+                  <SiFacebook className="w-7 h-7" />
                 </a>
 
                 <a
@@ -49,7 +57,7 @@ export default function Footer() {
                   className="flex items-center gap-2"
                   aria-label="Twitter"
                 >
-                  <Twitter />
+                  <SiTwitter className="w-7 h-7" />
                 </a>
 
                 <a
@@ -57,7 +65,7 @@ export default function Footer() {
                   className="flex items-center gap-2"
                   aria-label="YouTube"
                 >
-                  <Youtube />
+                  <SiYoutube className="w-7 h-7" />
                 </a>
 
                 <a
@@ -65,7 +73,7 @@ export default function Footer() {
                   className="flex items-center gap-2"
                   aria-label="Instagram"
                 >
-                  <Instagram />
+                  <SiInstagram className="w-7 h-7" />
                 </a>
               </div>
             </div>
@@ -98,13 +106,13 @@ export default function Footer() {
           <section className="space-y-3">
             <p>Adipiscing elit duis tristique sollicitudin nibh</p>
             <figure className="flex place-content-center gap-10">
-              <IBM />
-              <Unity />
+              <SiIbm className="w-11 h-11" />
+              <SiUnity className="w-11 h-11" />
             </figure>
             <p>Adipiscing elit sollicitudin nibh</p>
             <figure className="flex place-content-center gap-10">
-              <Nextjs />
-              <GitHub />
+              <SiNextDotJs className="w-11 h-11" />
+              <SiGithub className="w-11 h-11" />
             </figure>
           </section>
         </section>
@@ -113,6 +121,7 @@ export default function Footer() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
           <form className="grid gap-2 sm:flex sm:gap-0">
             <input
+              aria-label="consectetur"
               placeholder="consectetur adipisicing"
               className="px-3 py-1 rounded-md sm:rounded-r-none border-2 dark:border-gray-600 dark:bg-gray-900 transition focus:outline-none focus:border-blue-700 dark:focus:border-blue-400"
             />

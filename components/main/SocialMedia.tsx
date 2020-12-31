@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import SocialMediaIcons from '../svg/SocialMediaIcons'
+import SocialMediaIcons from '../../svg/SocialMediaIcons'
 
 export default function SocialMedia() {
   return (
@@ -9,7 +9,7 @@ export default function SocialMedia() {
           Id velit ut tortor pretium potenti.
         </h1>
       </header>
-      <div className="px-5 grid sm:grid-cols-2 md:grid-cols-3 gap-2 place-content-center">
+      <div className="px-5 grid grid-cols-2 md:grid-cols-3 gap-2 place-items-center">
         {SocialMediaIcons.map(({ svg, username, link }, idx) => {
           return (
             <Link key={idx} href={link}>

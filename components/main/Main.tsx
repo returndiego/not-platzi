@@ -2,12 +2,17 @@ import Hero from './Hero'
 import CompanyLogos from './CompanyLogos'
 import SmallCardsGrid from './SmallCardsGrid'
 import BulletPoints from './BulletPoints'
-import MediumCardGrid from './MediumCardGrid'
-import BulletPointsImages from './BulletPointsImages'
-import BulletPointsIllustration from './BulletPointsIllustration'
-import BulletPointsCarrousel from './BulletPointsCarrousel'
+import dynamic from 'next/dynamic'
+
+const MediumCardGrid = dynamic(() => import('./MediumCardGrid'))
+const BulletPointsImages = dynamic(() => import('./BulletPointsImages'))
+const BulletPointsIllustration = dynamic(
+  () => import('./BulletPointsIllustration')
+)
+const BulletPointsCarrousel = dynamic(() => import('./BulletPointsCarrousel'))
+const SocialMedia = dynamic(() => import('./SocialMedia'))
+
 // import Timeline from './Timeline'
-import SocialMedia from './SocialMedia'
 
 export default function Main() {
   return (
@@ -20,8 +25,8 @@ export default function Main() {
       <BulletPointsImages />
       <BulletPointsIllustration />
       <BulletPointsCarrousel />
-      {/* <Timeline /> */}
       <SocialMedia />
+      {/* <Timeline /> */}
     </main>
   )
 }

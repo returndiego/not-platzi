@@ -1,4 +1,4 @@
-import Chevron from '../svg/Chevron'
+import { HiChevronRight } from 'react-icons/hi'
 
 export default function BulletPointsIllustration() {
   return (
@@ -7,7 +7,7 @@ export default function BulletPointsIllustration() {
         <div className="w-full h-full bg-green-700">Photo</div>
         <ul className="space-y-3">
           <li className="flex gap-1">
-            <Chevron />
+            <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
             <div>
               <h1 className="text-lg bold">
                 Sagittis orci a scelerisque purus semper
@@ -16,7 +16,7 @@ export default function BulletPointsIllustration() {
             </div>
           </li>
           <li className="flex gap-1">
-            <Chevron />
+            <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
             <div>
               <h1 className="text-lg bold">
                 Sagittis orci a scelerisque purus semper
@@ -30,7 +30,7 @@ export default function BulletPointsIllustration() {
         <div className="w-full h-full bg-green-700">Photo</div>
         <ul className="space-y-3">
           <li className="flex gap-1">
-            <Chevron />
+            <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
             <div>
               <h1 className="text-lg bold">
                 Sagittis orci a scelerisque purus semper
@@ -39,7 +39,7 @@ export default function BulletPointsIllustration() {
             </div>
           </li>
           <li className="flex gap-1">
-            <Chevron />
+            <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
             <div>
               <h1 className="text-lg bold">
                 Sagittis orci a scelerisque purus semper

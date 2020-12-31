@@ -1,22 +1,22 @@
-import Chevron from '../svg/Chevron'
+import { HiChevronRight } from 'react-icons/hi'
 
 export default function BulletPointsCarrousel() {
   return (
     <section>
       <ul className="space-y-3">
         <li className="flex gap-1">
-          <Chevron />
+          <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
           <span>Vitae Risus nullam eget felis itae </span>
         </li>
         <li className="flex gap-1">
-          <Chevron />
+          <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
           <span>
             Quisque non tellus orci ac auctor. Sem viverra aliquet eget sit amet
             tellus cras adipiscing enim. Quam pellentesque nec nam aliquam
           </span>
         </li>
         <li className="flex gap-1">
-          <Chevron />
+          <HiChevronRight className="h-7 w-7 text-green-400 flex-none" />
           <span>Maecenas pharetra convallis posuere morbi</span>
         </li>
       </ul>
