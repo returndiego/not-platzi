@@ -27,7 +27,8 @@ export default function Hero() {
           </button>
           <footer className="text-sm">
             Excepteur sint occaecat
-            <span className="text-blue-600 dark:text-blue-400">
+            <span className="text-blue-900 dark:text-blue-300">
+              {' '}
               cupidatat non proident
             </span>
             , sunt in culpa qui officia deserunt
