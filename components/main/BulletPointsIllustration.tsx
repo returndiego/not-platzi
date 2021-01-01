@@ -5,9 +5,8 @@ export default function BulletPointsIllustration() {
   return (
     <section className="max-w-screen-lg mx-auto md:mt-10">
       <article className="grid md:grid-cols-2 place-items-center gap-10">
-        <div className="w-full">
+        <div className="w-full md:rounded-xl md:overflow-hidden">
           <Image
-            className="md:rounded-xl md:overflow-hidden"
             objectFit="cover"
             src="/nature3.jpg"
             layout="responsive"

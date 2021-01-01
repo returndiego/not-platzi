@@ -35,9 +35,9 @@ export default function Hero() {
           </footer>
         </form>
       </div>
-      <div className="hidden md:block ml-5 ">
+      <div className="hidden md:block">
         <Image
-          className="rounded-lg overflow-hidden"
+          priority
           objectFit="cover"
           src="/nature1.jpg"
           layout="responsive"
