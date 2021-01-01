@@ -11,19 +11,22 @@ import {
 
 export default function CompanyLogos() {
   return (
-    <section>
-      <p className="text-center">Pretium lectus quam id leo in vitae.</p>
-      <article className="flex flex-wrap place-content-around my-5 gap-5">
-        <SiGithub className="w-8 h-8" />
-        <SiNextDotJs className="w-8 h-8" />
-        <SiYarn className="w-8 h-8" />
-        <SiVisualstudiocode className="w-8 h-8" />
-        <SiBrave className="w-8 h-8" />
-        <SiSpotify className="w-8 h-8" />
-        <SiTailwindcss className="w-8 h-8" />
-        <SiTelegram className="w-8 h-8" />
-      </article>
-      <footer className="w-40 h-1 bg-blue-400 mx-auto"></footer>
+    <section className="bg-gray-100 dark:bg-gray-900">
+      <div className="px-2 py-5 max-w-screen-2xl mx-auto mt-10">
+        <p className="text-lg text-center">
+          Pretium lectus quam id leo in vitae.
+        </p>
+        <article className="flex flex-wrap place-content-around mt-5 gap-5">
+          <SiGithub className="w-10 h-10" />
+          <SiNextDotJs className="w-10 h-10" />
+          <SiYarn className="w-10 h-10" />
+          <SiVisualstudiocode className="w-10 h-10" />
+          <SiBrave className="w-10 h-10" />
+          <SiSpotify className="w-10 h-10" />
+          <SiTailwindcss className="w-10 h-10" />
+          <SiTelegram className="w-10 h-10" />
+        </article>
+      </div>
     </section>
   )
 }

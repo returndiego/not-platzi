@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 export default function MediumCardGrid() {
   return (
-    <section>
+    <section className="sm:px-2 max-w-screen-lg mx-auto mt-10">
       <header>
         <h1 className="text-2xl text-center">Sed vulputate mi sit amet</h1>
       </header>
@@ -19,7 +19,7 @@ export default function MediumCardGrid() {
           return (
             <Link key={idx} href={link}>
               <a
-                className={`flex items-center gap-3 px-2 py-4 bg-gray-900 ${textColor} rounded-md`}
+                className={`flex items-center gap-3 px-2 py-4 bg-gray-50 dark:bg-gray-900 ${textColor} rounded-md`}
               >
                 {svg}
                 <div className="space-y-2">
@@ -54,34 +54,34 @@ const CardIcons = [
     title: 'Maecenas pharetra',
     link: '/#',
     buttonColor: 'bg-blue-100 text-blue-900',
-    textColor: 'text-blue-300',
+    textColor: 'text-blue-800 dark:text-blue-300',
   },
   {
     svg: <HiCurrencyDollar className="w-14 h-14" />,
     title: 'Quisque non tellus',
     link: '/#',
     buttonColor: 'bg-red-100 text-red-900',
-    textColor: 'text-red-300',
+    textColor: 'text-red-800 dark:text-red-300',
   },
   {
     svg: <HiGlobeAlt className="w-14 h-14" />,
     title: 'Quam pellentesque',
     link: '/#',
     buttonColor: 'bg-green-100 text-green-900',
-    textColor: 'text-green-300',
+    textColor: 'text-green-800 dark:text-green-300',
   },
   {
     svg: <HiAtSymbol className="w-14 h-14" />,
     title: 'Praesent tristique',
     link: '/#',
     buttonColor: 'bg-yellow-100 text-yellow-900',
-    textColor: 'text-yellow-300',
+    textColor: 'text-yellow-800 dark:text-yellow-300',
   },
   {
     svg: <HiColorSwatch className="w-14 h-14" />,
     title: 'convallis posuere',
     link: '/#',
     buttonColor: 'bg-indigo-100 text-indigo-900',
-    textColor: 'text-indigo-300',
+    textColor: 'text-indigo-800 dark:text-indigo-300',
   },
 ]

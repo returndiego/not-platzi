@@ -13,7 +13,7 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.coolGray, // Change grays
+      gray: colors.warmGray, // Change grays
       red: colors.red,
       yellow: colors.amber,
       green: colors.lime,

@@ -12,7 +12,7 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-gray-100 dark:bg-gray-900">
-      <div className="px-4 mx-auto max-w-screen-lg pt-5 pb-9 space-y-10">
+      <div className="px-10 xl:px-0 max-w-screen-lg mx-auto mt-10 pt-5 pb-10 space-y-10">
         <section className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
           <section className="text-center md:text-left space-y-3">
             <div className="grid justify-items-center">
@@ -125,7 +125,7 @@ export default function Footer() {
               placeholder="consectetur adipisicing"
               className="px-3 py-1 rounded-md sm:rounded-r-none border-2 dark:border-gray-600 dark:bg-gray-900 transition focus:outline-none focus:border-blue-700 dark:focus:border-blue-400"
             />
-            <button className="px-3 py-1 border-2 sm:rounded-l-none border-blue-700 bg-blue-700 rounded">
+            <button className="px-3 py-1 border-2 sm:rounded-l-none border-blue-700 text-gray-50 bg-blue-700 rounded">
               consectetur
             </button>
           </form>
@@ -146,19 +146,19 @@ export default function Footer() {
           <section className="flex gap-3">
             <a
               href="#"
-              className="px-3 py-1 bg-gray-900 border border-gray-500 rounded"
+              className="px-3 py-1 text-gray-50 bg-gray-900 border border-gray-500 rounded"
             >
               PT
             </a>
             <a
               href="#"
-              className="px-3 py-1 bg-gray-900 border border-gray-500 rounded"
+              className="px-3 py-1 text-gray-50 bg-gray-900 border border-gray-500 rounded"
             >
               ES
             </a>
             <a
               href="#"
-              className="px-3 py-1 bg-gray-900 border border-gray-500 rounded"
+              className="px-3 py-1 text-gray-50 bg-gray-900 border border-gray-500 rounded"
             >
               EN
             </a>
