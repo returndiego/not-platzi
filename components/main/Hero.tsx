@@ -37,13 +37,13 @@ export default function Hero() {
       </div>
       <div className="hidden md:block">
         <Image
+          className="md:rounded-lg md:overflow-hidden"
           priority
           objectFit="cover"
           src="/nature1.jpg"
-          layout="responsive"
           alt="Picture of the author"
-          width={500}
-          height={300}
+          width={1280}
+          height={780}
         />
       </div>
     </section>

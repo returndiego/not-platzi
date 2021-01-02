@@ -9,11 +9,10 @@ export default function BulletPointsImages() {
           <Image
             className="md:rounded-lg md:overflow-hidden"
             objectFit="cover"
-            layout="responsive"
             src="/code.jpg"
-            alt="Picture of the author"
+            alt="code"
             width={1920}
-            height={1275}
+            height={1920}
           />
           <section className="px-2">
             <ul className="space-y-3 py-5">

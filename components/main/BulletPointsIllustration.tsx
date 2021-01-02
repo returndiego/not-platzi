@@ -5,16 +5,14 @@ export default function BulletPointsIllustration() {
   return (
     <section className="max-w-screen-lg mx-auto md:mt-10">
       <article className="grid md:grid-cols-2 place-items-center gap-10">
-        <div className="w-full md:rounded-xl md:overflow-hidden">
-          <Image
-            objectFit="cover"
-            src="/nature3.jpg"
-            layout="responsive"
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
-        </div>
+        <Image
+          className="md:rounded-lg md:overflow-hidden"
+          objectFit="cover"
+          src="/nature3.jpg"
+          alt="desierto"
+          width={1080}
+          height={1080}
+        />
         <ul className="space-y-3 px-5 pt-5">
           <List array={group1} />
         </ul>
@@ -23,16 +21,14 @@ export default function BulletPointsIllustration() {
         <ul className="hidden md:block space-y-3 px-5 pt-5">
           <List array={group2} />
         </ul>
-        <div className="w-full md:rounded-xl md:overflow-hidden">
-          <Image
-            objectFit="cover"
-            src="/nature2.jpg"
-            layout="responsive"
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
-        </div>
+        <Image
+          className="md:rounded-lg md:overflow-hidden"
+          objectFit="cover"
+          src="/nature2.jpg"
+          alt="clouds"
+          width={1080}
+          height={1080}
+        />
         <ul className="md:hidden space-y-3 px-5 pt-5">
           <List array={group2} />
         </ul>
